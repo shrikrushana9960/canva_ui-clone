@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/canva_ui-clone/static/css/main.22a3fa2e.chunk.css",
+    "main.js": "/canva_ui-clone/static/js/main.7e18daf7.chunk.js",
+    "main.js.map": "/canva_ui-clone/static/js/main.7e18daf7.chunk.js.map",
+    "runtime-main.js": "/canva_ui-clone/static/js/runtime-main.50df2db1.js",
+    "runtime-main.js.map": "/canva_ui-clone/static/js/runtime-main.50df2db1.js.map",
+    "static/css/2.a95be28f.chunk.css": "/canva_ui-clone/static/css/2.a95be28f.chunk.css",
+    "static/js/2.f079a308.chunk.js": "/canva_ui-clone/static/js/2.f079a308.chunk.js",
+    "static/js/2.f079a308.chunk.js.map": "/canva_ui-clone/static/js/2.f079a308.chunk.js.map",
+    "static/js/3.f1a7e8ac.chunk.js": "/canva_ui-clone/static/js/3.f1a7e8ac.chunk.js",
+    "static/js/3.f1a7e8ac.chunk.js.map": "/canva_ui-clone/static/js/3.f1a7e8ac.chunk.js.map",
+    "index.html": "/canva_ui-clone/index.html",
+    "static/css/2.a95be28f.chunk.css.map": "/canva_ui-clone/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.22a3fa2e.chunk.css.map": "/canva_ui-clone/static/css/main.22a3fa2e.chunk.css.map",
+    "static/js/2.f079a308.chunk.js.LICENSE.txt": "/canva_ui-clone/static/js/2.f079a308.chunk.js.LICENSE.txt",
+    "static/media/svgexport-10.44ca6c8a.svg": "/canva_ui-clone/static/media/svgexport-10.44ca6c8a.svg",
+    "static/media/svgexport-11.a82283e6.svg": "/canva_ui-clone/static/media/svgexport-11.a82283e6.svg",
+    "static/media/svgexport-12.51030dd8.svg": "/canva_ui-clone/static/media/svgexport-12.51030dd8.svg",
+    "static/media/svgexport-13.581bd2c2.svg": "/canva_ui-clone/static/media/svgexport-13.581bd2c2.svg",
+    "static/media/svgexport-14.b293be7a.svg": "/canva_ui-clone/static/media/svgexport-14.b293be7a.svg",
+    "static/media/svgexport-15.b59b7b08.svg": "/canva_ui-clone/static/media/svgexport-15.b59b7b08.svg",
+    "static/media/svgexport-17.c1ac8ac3.svg": "/canva_ui-clone/static/media/svgexport-17.c1ac8ac3.svg",
+    "static/media/svgexport-23.dae20dd1.svg": "/canva_ui-clone/static/media/svgexport-23.dae20dd1.svg",
+    "static/media/svgexport-3.d64395c1.svg": "/canva_ui-clone/static/media/svgexport-3.d64395c1.svg",
+    "static/media/svgexport-5.190c6116.svg": "/canva_ui-clone/static/media/svgexport-5.190c6116.svg",
+    "static/media/svgexport-9.ca1f8c8d.svg": "/canva_ui-clone/static/media/svgexport-9.ca1f8c8d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50df2db1.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.f079a308.chunk.js",
+    "static/css/main.22a3fa2e.chunk.css",
+    "static/js/main.7e18daf7.chunk.js"
+  ]
+}
