@@ -1,0 +1,25 @@
+.b1{
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600;
+    background-color: #7d2ae8;
+    color: #fff;
+        border: 2px solid transparent;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    height: 40px;
+    max-width: 100%;
+    min-width: 80px;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+    
+}
