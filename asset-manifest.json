@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/canva_ui-clone/static/css/main.8afaac55.chunk.css",
-    "main.js": "/canva_ui-clone/static/js/main.07fca283.chunk.js",
-    "main.js.map": "/canva_ui-clone/static/js/main.07fca283.chunk.js.map",
+    "main.js": "/canva_ui-clone/static/js/main.ba032b17.chunk.js",
+    "main.js.map": "/canva_ui-clone/static/js/main.ba032b17.chunk.js.map",
     "runtime-main.js": "/canva_ui-clone/static/js/runtime-main.fc18f4c6.js",
     "runtime-main.js.map": "/canva_ui-clone/static/js/runtime-main.fc18f4c6.js.map",
     "static/css/2.a95be28f.chunk.css": "/canva_ui-clone/static/css/2.a95be28f.chunk.css",
-    "static/js/2.ac71612d.chunk.js": "/canva_ui-clone/static/js/2.ac71612d.chunk.js",
-    "static/js/2.ac71612d.chunk.js.map": "/canva_ui-clone/static/js/2.ac71612d.chunk.js.map",
+    "static/js/2.c8097799.chunk.js": "/canva_ui-clone/static/js/2.c8097799.chunk.js",
+    "static/js/2.c8097799.chunk.js.map": "/canva_ui-clone/static/js/2.c8097799.chunk.js.map",
     "static/js/3.478e1e78.chunk.js": "/canva_ui-clone/static/js/3.478e1e78.chunk.js",
     "static/js/3.478e1e78.chunk.js.map": "/canva_ui-clone/static/js/3.478e1e78.chunk.js.map",
     "index.html": "/canva_ui-clone/index.html",
     "static/css/2.a95be28f.chunk.css.map": "/canva_ui-clone/static/css/2.a95be28f.chunk.css.map",
     "static/css/main.8afaac55.chunk.css.map": "/canva_ui-clone/static/css/main.8afaac55.chunk.css.map",
-    "static/js/2.ac71612d.chunk.js.LICENSE.txt": "/canva_ui-clone/static/js/2.ac71612d.chunk.js.LICENSE.txt",
+    "static/js/2.c8097799.chunk.js.LICENSE.txt": "/canva_ui-clone/static/js/2.c8097799.chunk.js.LICENSE.txt",
     "static/media/svgexport-10.44ca6c8a.svg": "/canva_ui-clone/static/media/svgexport-10.44ca6c8a.svg",
     "static/media/svgexport-11.a82283e6.svg": "/canva_ui-clone/static/media/svgexport-11.a82283e6.svg",
     "static/media/svgexport-12.51030dd8.svg": "/canva_ui-clone/static/media/svgexport-12.51030dd8.svg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.fc18f4c6.js",
     "static/css/2.a95be28f.chunk.css",
-    "static/js/2.ac71612d.chunk.js",
+    "static/js/2.c8097799.chunk.js",
     "static/css/main.8afaac55.chunk.css",
-    "static/js/main.07fca283.chunk.js"
+    "static/js/main.ba032b17.chunk.js"
   ]
 }
