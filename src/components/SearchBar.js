@@ -88,14 +88,14 @@ const SearchBar = () => {
             }}
           >
             <Icons src={first} heading={"For you"} />
-            <Icons src={second} heading="Presentations"/>
-            <Icons src={third} heading="Social media"/>
-            <Icons src={fourth} heading="Video"/>
-            <Icons src={five} heading="Print Product"/>
-            <Icons src={six} heading="Marketing"/>
+            <Icons src={second} heading="Presentations" />
+            <Icons src={third} heading="Social media" />
+            <Icons src={fourth} heading="Video" />
+            <Icons src={five} heading="Print Product" />
+            <Icons src={six} heading="Marketing" />
 
-            <Icons src={seven} heading="Office"/>
-            <Icons src={six} heading="more"/>
+            <Icons src={seven} heading="Office" />
+            <Icons src={six} heading="more" />
           </div>
         </div>
 
@@ -103,13 +103,13 @@ const SearchBar = () => {
           ref={myRef}
           style={{
             display: "flex",
-            background: "lightgrey",
+
             borderRadius: "0px 0px 10px 10px",
             overflowX: "scroll",
-            backgroundColor: "white",
+
             alignItems: "center",
             width: "95%",
-            background: "lightgrey",
+            background: "#eff2f2",
             borderBottomLeftRadius: "10px",
             borderBottomRightRadius: "10px",
             padding: "20px",
