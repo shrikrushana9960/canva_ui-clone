@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/canva_ui-clone/static/css/main.8afaac55.chunk.css",
-    "main.js": "/canva_ui-clone/static/js/main.a2bdd375.chunk.js",
-    "main.js.map": "/canva_ui-clone/static/js/main.a2bdd375.chunk.js.map",
+    "main.js": "/canva_ui-clone/static/js/main.07fca283.chunk.js",
+    "main.js.map": "/canva_ui-clone/static/js/main.07fca283.chunk.js.map",
     "runtime-main.js": "/canva_ui-clone/static/js/runtime-main.fc18f4c6.js",
     "runtime-main.js.map": "/canva_ui-clone/static/js/runtime-main.fc18f4c6.js.map",
     "static/css/2.a95be28f.chunk.css": "/canva_ui-clone/static/css/2.a95be28f.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.a95be28f.chunk.css",
     "static/js/2.ac71612d.chunk.js",
     "static/css/main.8afaac55.chunk.css",
-    "static/js/main.a2bdd375.chunk.js"
+    "static/js/main.07fca283.chunk.js"
   ]
 }
