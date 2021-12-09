@@ -1,0 +1,20 @@
+.container{
+    justify-content: center;
+    display: flex;
+
+    flex-direction: column;
+    width:"100%";
+    text-align: center;
+}
+.subContainer{
+    padding-bottom: 50px;
+   margin:3%;
+   display:flex;
+   justify-content:space-around;
+   border-bottom:1px solid black;
+   text-align:left;
+   margin-bottom:20px;
+}
+.subValue{font-size:18px;line-height:1;font-weight:200;
+
+}

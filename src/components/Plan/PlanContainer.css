@@ -1,0 +1,15 @@
+.plan-container{
+   
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            margin-bottom: 2%;
+            width:"100%"
+          
+}
+@media (max-width: 800px) {
+.plan-container{
+    flex-direction: column;
+  }
+}

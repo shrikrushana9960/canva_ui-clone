@@ -1,0 +1,8 @@
+.details{
+    display: flex;
+    visibility: hidden;
+}
+
+.imagePost :hover  ~ .details{
+    visibility: visible;
+}

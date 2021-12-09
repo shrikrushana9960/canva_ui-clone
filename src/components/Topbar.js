@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 import LeftMenu from "./LeftMenu";
+import logo from '../icons/svgexport-3.svg'
 import "./TopBar.css";
 import { Layout, Menu, Breadcrumb } from 'antd';
 import {  Grid } from "antd";
-
-import { Drawer, Button } from "antd";
-const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
-
+import Button from "./Button/Button"
+import TopBarItem from "./TopBarItem";
 const { useBreakpoint } = Grid;
 const Topbar = () => {
     const { Header, Content, Footer } = Layout;
@@ -21,144 +19,189 @@ const { md } = useBreakpoint();
         setVisible(false);
     }
     return (
-      <div>
-        <div class="navbar">
-          <a href="#home">Home</a>
-          <a href="#news">News</a>
-          <div class="dropdown">
-            <button class="dropbtn">
-              Dropdown
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content" style={{ width: "60%",borderRadius:"10px" }}>
-              <div class="header" style={{ margin: "10px",display:"flex",flexDirection:"row",justifyContent:"space-between" }}>
-                <div>
-                  <div
-                    style={{
-                      borderRadius: "10px",
-                      width: "160px",
-                      overflow: "hidden",
-                    }}
-                  >
-                    {" "}
-                    <img
-                      src="https://www.w3schools.com/howto/img_snow.jpg"
-                      width="100%"
-                      height="96px"
-                    />
-                  </div>
-                  <div style={{ marginTop: "10px", lineHeight: "1" }}>
-                    <h3 style={{ fontWeight: "bold" }}>Social Media &</h3>
-                    <h3 style={{ fontWeight: "bold" }}>Video</h3>
-                    <p>Instagram</p>
-                    <p>Facebook</p>
-                    <p>Twitter</p>
-                    <p>Youtube</p>
-                    <p>Video editor</p>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    style={{
-                      borderRadius: "10px",
-                      width: "160px",
-                      overflow: "hidden",
-                    }}
-                  >
-                    {" "}
-                    <img
-                      src="https://www.w3schools.com/howto/img_snow.jpg"
-                      width="100%"
-                      height="96px"
-                    />
-                  </div>
-                  <div style={{ marginTop: "10px", lineHeight: "1" }}>
-                    <h3 style={{ fontWeight: "bold" }}>Social Media &</h3>
-                    <h3 style={{ fontWeight: "bold" }}>Video</h3>
-                    <p>Instagram</p>
-                    <p>Facebook</p>
-                    <p>Twitter</p>
-                    <p>Youtube</p>
-                    <p>Video editor</p>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    style={{
-                      borderRadius: "10px",
-                      width: "160px",
-                      overflow: "hidden",
-                    }}
-                  >
-                    {" "}
-                    <img
-                      src="https://www.w3schools.com/howto/img_snow.jpg"
-                      width="100%"
-                      height="96px"
-                    />
-                  </div>
-                  <div style={{ marginTop: "10px", lineHeight: "1" }}>
-                    <h3 style={{ fontWeight: "bold" }}>Social Media &</h3>
-                    <h3 style={{ fontWeight: "bold" }}>Video</h3>
-                    <p>Instagram</p>
-                    <p>Facebook</p>
-                    <p>Twitter</p>
-                    <p>Youtube</p>
-                    <p>Video editor</p>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    style={{
-                      borderRadius: "10px",
-                      width: "160px",
-                      overflow: "hidden",
-                    }}
-                  >
-                    {" "}
-                    <img
-                      src="https://www.w3schools.com/howto/img_snow.jpg"
-                      width="100%"
-                      height="96px"
-                    />
-                  </div>
-                  <div style={{ marginTop: "10px", lineHeight: "1" }}>
-                    <h3 style={{ fontWeight: "bold" }}>Social Media &</h3>
-                    <h3 style={{ fontWeight: "bold" }}>Video</h3>
-                    <p>Instagram</p>
-                    <p>Facebook</p>
-                    <p>Twitter</p>
-                    <p>Youtube</p>
-                    <p>Video editor</p>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    style={{
-                      borderRadius: "10px",
-                      width: "160px",
-                      overflow: "hidden",
-                    }}
-                  >
-                    {" "}
-                    <img
-                      src="https://www.w3schools.com/howto/img_snow.jpg"
-                      width="100%"
-                      height="96px"
-                    />
-                  </div>
-                  <div style={{ marginTop: "10px", lineHeight: "1" }}>
-                    <h3 style={{ fontWeight: "bold" }}>Social Media &</h3>
-                    <h3 style={{ fontWeight: "bold" }}>Video</h3>
-                    <p>Instagram</p>
-                    <p>Facebook</p>
-                    <p>Twitter</p>
-                    <p>Youtube</p>
-                    <p>Video editor</p>
-                  </div>
+      <div
+        style={{
+          position: "fixed",
+          width: "100%",
+          zIndex:"444",
+          background: "white",
+          boxShadow: "1px 1px 1px grey",
+        }}
+      >
+        <div style={{ margin: "10px", marginLeft: "3%", display: "flex" }}>
+          <div
+            class="navbar"
+            style={{
+              display: "flex",
+              width: "50%",
+              justifyContent: "space-around",
+            }}
+          >
+            <img src={logo} />
+            <a href="#home">Home</a>
+
+            <div class="dropdown">
+              <button class="dropbtn">
+                Design
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div
+                class="dropdown-content"
+                style={{ width: "60%", borderRadius: "10px" }}
+              >
+                <div
+                  class="header"
+                  style={{
+                    margin: "10px",
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <TopBarItem
+                    heading={"Social Network"}
+                    src="https://www.w3schools.com/howto/img_snow.jpg"
+                    data={["Instagram", "Facebook", "Twitter", "Linkedin"]}
+                  />
+                  <TopBarItem
+                    heading={"Social Network"}
+                    src="https://www.w3schools.com/howto/img_snow.jpg"
+                    data={["Instagram", "Facebook", "Twitter", "Linkedin"]}
+                  />
+                  <TopBarItem
+                    heading={"Social Network"}
+                    src="https://www.w3schools.com/howto/img_snow.jpg"
+                    data={["Instagram", "Facebook", "Twitter", "Linkedin"]}
+                  />
+                  <TopBarItem
+                    heading={"Social Network"}
+                    src="https://www.w3schools.com/howto/img_snow.jpg"
+                    data={["Instagram", "Facebook", "Twitter", "Linkedin"]}
+                  />
                 </div>
               </div>
             </div>
+            <a href="#home">Templates</a>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Features
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div
+                class="dropdown-content"
+                style={{
+                  width: "30%",
+                  borderRadius: "10px",
+                  marginLeft: "10%",
+                }}
+              >
+                <div
+                  class="header"
+                  style={{
+                    margin: "10px",
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <TopBarItem
+                    heading={"Social Network"}
+                    src="https://www.w3schools.com/howto/img_snow.jpg"
+                    data={["Instagram", "Facebook", "Twitter", "Linkedin"]}
+                  />
+                  <TopBarItem
+                    heading={"Social Network"}
+                    src="https://www.w3schools.com/howto/img_snow.jpg"
+                    data={["Instagram", "Facebook", "Twitter", "Linkedin"]}
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Learn
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div
+                class="dropdown-content"
+                style={{
+                  width: "30%",
+                  borderRadius: "20px",
+                  marginLeft: "30%",
+                }}
+              >
+                <div
+                  class="header"
+                  style={{
+                    margin: "10px",
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <TopBarItem
+                    heading={"Social Network"}
+                    src="https://www.w3schools.com/howto/img_snow.jpg"
+                    data={["Instagram", "Facebook", "Twitter", "Linkedin"]}
+                  />
+                  <TopBarItem
+                    heading={"Social Network"}
+                    src="https://www.w3schools.com/howto/img_snow.jpg"
+                    data={["Instagram", "Facebook", "Twitter", "Linkedin"]}
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Plans
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div
+                class="dropdown-content"
+                style={{
+                  width: "30%",
+                  borderRadius: "10px",
+                  marginLeft: "30%",
+                }}
+              >
+                <div
+                  class="header"
+                  style={{
+                    margin: "10px",
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <TopBarItem
+                    heading={"Social Network"}
+                    src="https://www.w3schools.com/howto/img_snow.jpg"
+                    data={["Instagram", "Facebook", "Twitter", "Linkedin"]}
+                  />
+                  <TopBarItem
+                    heading={"Social Network"}
+                    src="https://www.w3schools.com/howto/img_snow.jpg"
+                    data={["Instagram", "Facebook", "Twitter", "Linkedin"]}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
+              marginLeft: "auto",
+              display: "flex",
+
+              marginRight: "2%",
+              alignItems: "center",
+            }}
+          >
+            <i class="fa fa-question-circle fa-2x" aria-hidden="true"></i>
+            <div style={{ marginLeft: "10px" }}></div>
+            <Button text={"Log in"} white />
+            <div style={{ marginLeft: "10px" }}></div>
+            <Button text={"Sign up"} />
           </div>
         </div>
       </div>

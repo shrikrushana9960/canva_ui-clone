@@ -6,13 +6,14 @@ import Banner from "./components/Banner";
 import Stackgird from './components/Stackgrid/Stackgird';
 import WorkSolo from './components/WorkSolo/WorkSolo';
 import Plan from './components/Plan/Plan';
-import BlogItem from './components/Blogs/BlogItem';
+import Footer from './components/Footer/Footer';
 import Blogs from './components/Blogs/Blogs';
 function App() {
   
   return (
     <div>
       <NavBar />
+     <div style={{height:"100px"}}/>
       <Search />
       <Banner
         src="https://static.canva.com/anon_home/benefits-start-en-1200x780-compressed.mp4"
@@ -42,6 +43,7 @@ function App() {
       <WorkSolo/>
       <Plan/>
       <Blogs/>
+      <Footer/>
     </div>
   );
 }
